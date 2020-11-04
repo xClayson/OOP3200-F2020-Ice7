@@ -24,6 +24,9 @@ public class Person
         this.m_age = m_age;
     }
 
+    /**
+     * The default constructor sets name to unknown and age to 0
+     */
     public Person ()
     {
         m_name = "unknown";
