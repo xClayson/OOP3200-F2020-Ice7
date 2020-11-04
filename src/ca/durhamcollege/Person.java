@@ -65,7 +65,7 @@ public class Person
     {
         String outputstring = "";
         outputstring += "Name: " + this.m_name + " ";
-        outputstring += "Age: " + this.m_age
+        outputstring += "Age: " + this.m_age;
 
         return outputstring;
     }
