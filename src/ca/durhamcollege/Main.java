@@ -1,3 +1,7 @@
+/**
+ * @author Ryan Clayson, StudentID:100558837
+ * @date November 4, 2020
+ */
 package ca.durhamcollege;
 
 

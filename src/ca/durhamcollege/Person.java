@@ -1,8 +1,13 @@
+/**
+ * @author Ryan Clayson, StudentID:100558837
+ * @date November 4, 2020
+ */
 package ca.durhamcollege;
 
 public class Person
 {
     //Private Instance Variables
+
     private String m_name;
     private int m_age;
 
@@ -24,13 +29,15 @@ public class Person
         this.m_age = m_age;
     }
 
+    //Constructors
+
     /**
      * The default constructor sets name to unknown and age to 0
      */
     public Person ()
     {
-        m_name = "unknown";
-        m_age = 0;
+        this.m_name = "unknown";
+        this.m_age = 0;
     }
 
     public Person(String name, int age) {
@@ -65,10 +72,10 @@ public class Person
     @Override
     public String toString()
     {
-        String outputstring = "";
-        outputstring += "Name: " + this.m_name + " ";
-        outputstring += "Age: " + this.m_age;
+        String outputString = "";
+        outputString += "Name: " + this.m_name + " ";
+        outputString += "Age: " + this.m_age;
 
-        return outputstring;
+        return outputString;
     }
 }
